@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Run",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Software/application_code/bin/Debug/net8.0-windows/application_code.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/Software/application_code",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
